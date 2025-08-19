@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width">
   <title>Lance Matthew C. Baraña - Data Analyst Portfolio</title>
   <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <div class="wrapper">
     <header>
-      <h1>Lance Matthew Baraña</h1>
+      <h1>Lance Matthew C. Baraña</h1>
       <p>Senior Data Analyst | Data Engineer | Business Intelligence Analyst</p>
       <p class="view">
         <a href="mailto:baranalance@gmail.com">baranalance@gmail.com</a> |
@@ -21,32 +22,50 @@
       </p>
     </header>
 
-    <section>
-      <h2>Work Experience</h2>
+    <section data-aos="fade-up">
+      <h2>Toolbelt</h2>
+      <div class="badges">
+        <span class="badge">Python</span>
+        <span class="badge">Power BI</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Tableau</span>
+        <span class="badge">BigQuery</span>
+        <span class="badge">Streamlit</span>
+      </div>
+    </section>
 
+    <section data-aos="fade-up">
+      <h2>Featured Dashboards</h2>
+      <img src="images/sales-dashboard.png" alt="Sales Dashboard">
+      <p>Interactive Power BI dashboard showing multi-regional KPIs and trends. <a href="#">View live</a></p>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2>Testimonials</h2>
+      <blockquote>
+        “Lance delivered data dashboards that saved us 10+ hours per week. Amazing work!”<br>
+        — Manager, Biomerica
+      </blockquote>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2>Work Experience</h2>
       <h3>Biomerica – Senior Data Analyst (January 2025 – June 2025)</h3>
       <p>
         • Designed and maintained 12+ Power BI dashboards with advanced DAX metrics.<br>
         • Built end-to-end data pipelines and statistical models using Python and Google BigQuery.<br>
         • Managed PostgreSQL databases and validated healthcare-related data for accuracy.
       </p>
-
       <h3>LMCB Trading – Business Intelligence Analyst (January 2024 – January 2025)</h3>
       <p>
         • Conducted analysis on inventory and customer data using Excel, Python, and MySQL.<br>
         • Automated reporting and business processes using Python and Zapier.<br>
         • Collaborated with cross-functional teams to optimize data-driven decisions.
       </p>
-
-      <h3>Energin – Junior Data Analyst (June 2023 – December 2023)</h3>
-      <p>
-        • Built automation tools for querying MySQL data using Python and Power Automate.<br>
-        • Created data visualizations and ad-hoc reports using Power BI.<br>
-        • Defined technical specs and supported UAT for analytics projects.
-      </p>
     </section>
 
-    <section>
+    <section data-aos="fade-up">
       <h2>Education</h2>
       <p>
         • Master of Science in Business Analytics – Quantic School of Business and Technology, Washington, USA (August 2025 – October 2026)<br>
@@ -56,55 +75,14 @@
       </p>
     </section>
 
-    <section>
-      <h2>Freelancing Experience</h2>
-      <h3>Freelance Data Engineer (August 2022 – June 2025)</h3>
-      <p>
-        • Designed and deployed scalable data infrastructure and ETL pipelines (Python, SQL).<br>
-        • Used AWS and GCP to build cloud-based data solutions.<br>
-        • Optimized MySQL and BigQuery performance through query tuning and indexing.
-      </p>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <p>
-        • <strong>Power BI Dashboards:</strong> Designed cross-industry reports with custom DAX for clients in healthcare, retail, and finance.<br>
-        • <strong>Stock Market ML Analysis:</strong> Developed Random Forest model predicting PSE trends (79.7% accuracy).<br>
-        • <strong>LangChain + Ollama Chatbot:</strong> Dockerized AI chatbot with local LLM inference and Streamlit frontend.
-      </p>
-    </section>
-
-    <section>
-      <h2>Certifications</h2>
-      <p>
-        • Microsoft Power BI Data Analyst Professional – Microsoft<br>
-        • Google Data Analytics Professional – Google<br>
-        • Big Data Concentration – University of California, San Diego<br>
-        • Big Data Integration and Processing – UC San Diego<br>
-        • Big Data Modeling and Management Systems – UC San Diego<br>
-        • Machine Learning with Big Data – UC San Diego<br>
-        • Graph Analytics – UC San Diego<br>
-        • Introduction to Machine Learning – Quantic School of Business and Technology<br>
-        • Data Analytics Essentials – Cisco<br>
-        • English C2 Proficient – EF SET
-      </p>
-    </section>
-
-    <section>
-      <h2>Technologies & Tools</h2>
-      <p>
-        <strong>Databases:</strong> MySQL, PostgreSQL, BigQuery<br>
-        <strong>Languages:</strong> Python, SQL, Java, JavaScript, C++<br>
-        <strong>Tools:</strong> Power BI, Tableau, Excel, Microsoft Office, Jira, Salesforce, Docker, Git, Zapier<br>
-        <strong>Frameworks:</strong> Pandas, NumPy, Scikit-learn, Matplotlib, Flask, LangChain, Streamlit<br>
-        <strong>Development:</strong> Agile, Waterfall, Scrum, Iterative SDLC
-      </p>
-    </section>
-
     <footer>
-      <p>© Lance Matthew C. Baraña | Built with HTML & CSS</p>
+      <p>© Lance Matthew C. Baraña | Built with HTML, CSS & AOS</p>
     </footer>
   </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
