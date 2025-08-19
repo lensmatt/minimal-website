@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -60,29 +60,14 @@ a:hover small {
 }
 
 blockquote {
-  border-left: 4px solid #ccc;
-  margin: 10px 0;
-  padding-left: 15px;
+  border-left: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 0 0 0 20px;
   font-style: italic;
-  color: #444;
-}
-
-.badge {
-  display: inline-block;
-  padding: 4px 10px;
-  background: #f1f1f1;
-  border-radius: 5px;
-  margin: 3px;
-  font-size: 13px;
-  color: #333;
-}
-
-.badges {
-  margin-bottom: 15px;
 }
 
 code, pre {
-  font-family: Monaco, Consolas, "Courier New", monospace;
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #333;
 }
 
@@ -116,13 +101,10 @@ th {
 
 img {
   max-width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-top: 8px;
 }
 
 header {
-  width: 300px;
+  width: 300px; /* increased from 270px to fit full name */
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -135,7 +117,7 @@ header ul {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 300px;
+  width: 300px; /* match header width */
 }
 
 header li {
@@ -211,7 +193,7 @@ hr {
 }
 
 footer {
-  width: 300px;
+  width: 300px; /* match header width */
   float: left;
   position: fixed;
   bottom: 50px;
@@ -219,7 +201,8 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-  .wrapper {
+
+  div.wrapper {
     width: auto;
     margin: 0;
   }
